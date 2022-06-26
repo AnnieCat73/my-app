@@ -7,6 +7,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+section {
+  padding: 20px;
+}
+
+/*nav*/
+
 nav {
   height: 70px;
   display: flex;
@@ -18,4 +24,44 @@ nav {
 
 .nav-logo {
   max-width: 100px;
+}
+
+/*hero*/
+
+.hero-container {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: left;
+}
+
+.hero-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 39.6px;
+  color: #000000;
+  font-style: normal;
+}
+
+.hero-text {
+  color: #222222;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 40%;
 }
